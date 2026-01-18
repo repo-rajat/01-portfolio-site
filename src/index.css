@@ -1,0 +1,27 @@
+@import url(./App.css);
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&display=swap');
+
+:root {
+  .dark {
+    /* neutrals */
+    --black: 13 13 14;
+    --black-75: 148 148 158;
+    --black-50: 28 28 31;
+    --black-25: 42 42 50;
+    --white: 255 255 255;
+    --muted: 148 148 158;
+
+    /* secondary */
+    --coral: 243 107 107;
+    --sky: 87 188 243;
+    --mint: 79 198 70;
+    --violet: 177 107 246;
+
+    /* shades (light) */
+    --coral-20: 255 160 160;
+    --sky-20: 138 213 251;
+    --mint-20: 157 231 152;
+    --violet-20: 212 174 250;
+
+  }
+}

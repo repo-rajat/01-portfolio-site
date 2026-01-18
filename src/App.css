@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@import "./styles/wave.css";
+
+body{
+  font-family: Sora, system-ui, sans-serif;
+  background-color: rgb(var(--black));
+  color: rgb(var(--white));
+  font-weight: 300;
+}
+
+@layer components {
+  .paragraph{
+    @apply text-[rgb(var(--muted))] font-light text-lg;
+  }
+
+  .h3{
+    @apply text-2xl font-medium mb-5;
+  }
+}
