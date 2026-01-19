@@ -3,28 +3,36 @@ const skills = [
     skills: {
       listItems: [
         {
-          name: "React",
-          percentage: 80,
+          advanced: [
+            {
+              name: "HTML/CSS",
+              percentage: 90,
+            },
+            {
+              name: "Javascript",
+              percentage: 90,
+            },
+          ],
         },
         {
-          name: "Typescript",
-          percentage: 80,
+          proficient: [
+            {
+              name: "React",
+              percentage: 90,
+            },
+            {
+              name: "Typescript",
+              percentage: 90,
+            },
+          ],
         },
         {
-          name: "CSS/Tailwind",
-          percentage: 90,
-        },
-        {
-          name: "Javascript",
-          percentage: 90,
-        },
-        {
-          name: "Angular",
-          percentage: 70,
-        },
-        {
-          name: "Figma/Design/Other",
-          percentage: 80,
+          workingKnowledge: [
+            {
+              name: "Angular",
+              percentage: 90,
+            },
+          ],
         },
       ],
     },
@@ -32,20 +40,22 @@ const skills = [
       title: "Tools & Technology",
       skillsTags: [
         "VS Code",
-        "Git",
+        "Git / GitHub",
+        "Browser DevTools",
+        "SCSS",
+        "Tailwind CSS",
+        "Bootstrap",
         "Figma",
-        "Adobe XD",
-        "Webflow",
-        "Notion",
-        "GitHub",
+        "Jira",
       ],
     },
     whatido: {
       title: "What I Do",
       listItems: [
-        "Build responsive, accessible web applications",
-        "Create intuitive user interfaces with modern frameworks",
-        "Design component systems and design tokens",
+        "Build responsive, accessible web interfaces using modern frontend technologies",
+        "Develop reusable, component-based UI with clean, maintainable code",
+        "Convert Figma designs into pixel-accurate, production-ready UI",
+        "Improve UI performance, accessibility (WCAG), and cross-browser consistency"
       ],
     },
   },

@@ -2,10 +2,9 @@ import React from "react";
 
 function Progress({skill, percentage, theme}) {
   return (
-    <div className="space-y-2">
+    <div className="space-y-2 mt-5">
       <div className="flex justify-between items-center">
         <span className="font-medium">{skill}</span>
-        <span className="text-rgb(var--muted) text-sm">{`${percentage}%`}</span>
       </div>
       <div className="h-2 rounded-full overflow-hidden" style={{ backgroundColor: `rgb(var(--${theme}) / 12%)`}}>
         <div
